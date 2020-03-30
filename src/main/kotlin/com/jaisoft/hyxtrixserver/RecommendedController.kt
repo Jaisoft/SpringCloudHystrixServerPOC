@@ -10,6 +10,6 @@ class RecommendedController {
 
     @RequestMapping(value = "/recommended")
     fun readingList(): String {
-        return "Spring in Action (Manning), Cloud Native Java (O'Reilly), Learning Spring Boot (Packt)"
+        return "Hystrix Server"
     }
 }
